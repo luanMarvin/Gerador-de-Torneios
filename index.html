@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="main.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Torneios</title>
+    <link rel="icon" href="src/icon.png">
+    <!--V1: Apenas torneios com 8 participantes.-->
+</head>
+<body>
+    <h1 id="title">T o u r n a m e n t</h1>
+    <div id="container">
+        <input type="text" id="player1" class="box">
+        <br>
+        <input type="text" id="player2" class="box">
+        <input type="text" id="matchOneWinner" class="box2" readOnly="true">
+        <br><br><br>
+        <input type="text" id="player3" class="box">
+        <br>
+        <input type="text" id="player4" class="box">
+        <input type="text" id="matchTwoWinner" class="box2" readOnly="true">
+        <input type="text" id="matchFiveWinner" class="box3" readOnly="true">
+        <br><br><br>
+        <input type="text" id="player5" class="box">
+        <br>
+        <input type="text" id="player6" class="box">
+        <input type="text" id="matchThreeWinner" class="box2" readOnly="true">
+        <br><br><br>
+        <input type="text" id="player7" class="box">
+        <br>
+        <input type="text" id="player8" class="box">
+        <input type="text" id="matchFourWinner" class="box2" readOnly="true">
+        <input type="text" id="matchSixWinner" class="box3" readOnly="true">
+        <input type="text" id="matchSevenWinner" class="box4" readOnly="true">
+        <br><br>
+    </div>
+    <button id="startButton" class="buttons" onclick="start();">Start</button>
+    <button id="resetButton" class="buttons" disabled="true" onclick="reset();">Reset</button>
+
+    <script src="main.js"></script>
+</body>
+</html>
